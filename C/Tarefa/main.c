@@ -30,7 +30,7 @@ int main() {
 
 		if (get_sensor(SENSOR_LE) < 5 || get_sensor(SENSOR_LD < 5)) { //se estiver sendo empurrado pelos lados
 			motors(255, 255); //mover para frente para não travar quando for girar
-		_	delay_ms(500); //tempo movendo para frente
+			_delay_ms(500); //tempo movendo para frente
 		}
 
 		motors(255, -255); //robô gira e repete o ciclo até encontrar adversário novamente
